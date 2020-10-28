@@ -90,7 +90,7 @@ header .content-wrapper {
 }
 #content::after {
   content: '';
-  background: url('./img/home-image.svg') no-repeat center;
+  background: url('../img/home-image.svg') no-repeat center;
   background-size: cover;
   opacity: 0.3;
   top: 70px;
