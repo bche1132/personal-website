@@ -104,12 +104,12 @@ header .content-wrapper {
   z-index: 0;
 }
 .about-content {
-  background: black;
+  /* background: black; */
 }
 .section-title {
   margin: 5px;
   margin-top: 40px;
-  color: white;
+  /* color: white; */
 }
 .row {
   display: flex;
