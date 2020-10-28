@@ -50,6 +50,7 @@ header .content-wrapper {
   align-items: center;
   height: 100%;
   z-index: 100;
+  overflow: auto;
 }
 .home.content-wrapper {
   min-height: calc(100vh - 80px)
@@ -84,6 +85,8 @@ header .content-wrapper {
 }
 .content-text {
   z-index: 100;
+  padding-bottom: 50px;
+  width: 100%;
 }
 #content {
   min-height: calc(100vh - 80px);
@@ -100,10 +103,91 @@ header .content-wrapper {
   position: fixed;
   z-index: 0;
 }
+#about-content {
+  background: black;
+  min-height: calc(100vh - 80px);
+}
+.section-title {
+  margin: 5px;
+  margin-top: 40px;
+  color: white;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.row.main {
+  width: 100%;
+  margin: 0 auto;
+}
+.skill {
+  align-items: center;
+  margin-bottom: 20px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.col-content {
+  padding:20px;
+}
+.grid-title {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.grid-title.light {
+  color: white;
+}
+.skillset.light {
+  color: rgba(255,255,255, 0.7)
+}
+.design {
+  background-color: #F8BEBA;
+  margin: 5px;
+}
+.development {
+  background-color: #FCB040;
+  margin: 5px;
+}
+.soft {
+  background-color: #2BBCA5;
+  margin: 5px;
+}
+.hobbies {
+  background-color: #2F4DA1;
+  margin: 5px;
+}
+.skillset {
+  font-size: 1.2rem;
+  color: rgba(0,0,0,0.7);
+  margin-right: 50px;
+}
+.row.dot-row {
+  margin-left: auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color:rgba(0,0,0,0.3);
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.dot.dark {
+  background-color: black;
+}
 
 @media(max-width: 1000px) {
   .content-wrapper {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .row.main {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col {
+    width: 100%;
   }
 }
