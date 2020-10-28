@@ -1,0 +1,109 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background: #111;
+}
+header nav ul {
+  display: flex;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
+  z-index: 1000;
+}
+header nav li a {
+  display: block;
+  color: #FFF;
+  line-height: 3em;
+  text-decoration: none;
+  text-transform: lowercase;
+  margin-left: 2.5rem;
+  z-index: 1000;
+}
+header nav li a:hover, header nav li a:focus{
+  color: #F8BEBA;
+}
+header nav li a.active{
+  color: #F8BEBA;
+  border-bottom: 1px solid white;
+}
+.logo {
+  background-color: white;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  border-radius: 50%;
+  padding: 4px 6px;
+  font-size: 1.8em;
+}
+.logo:hover, .logo:focus {
+  background-color: #F8BEBA;
+}
+header .content-wrapper {
+  height: 80px;
+}
+.content-wrapper {
+  max-width: 982px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  z-index: 100;
+}
+.home.content-wrapper {
+  min-height: calc(100vh - 80px)
+}
+.white-bg {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+}
+.name {
+  text-transform: lowercase;
+  font-weight: 100;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  color: rgba(0,0,0,0.8);
+  margin-bottom: 0px;
+  
+  z-index: 100;
+}
+.job-title {
+  font-size: 3rem;
+  text-transform: lowercase;
+  margin-top: 0px;
+}
+.nickname-callout {
+  font-weight: 400;
+  color: rgba(0,0,0,1.0);
+}
+.description {
+  text-transform: lowercase;
+  color: rgba(0,0,0,0.7);
+  font-size: 1.6rem;
+}
+.content-text {
+  z-index: 100;
+}
+#content {
+  min-height: calc(100vh - 80px);
+}
+#content::after {
+  content: '';
+  background: url('/img/home-image.svg') no-repeat center;
+  background-size: cover;
+  opacity: 0.3;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 0;
+}
+
+@media(max-width: 1000px) {
+  .content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
