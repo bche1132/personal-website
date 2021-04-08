@@ -39,11 +39,8 @@ export default {
 
   // For git-pages
   target: 'static',
-  generate: {
-    dir: 'public'
-  },
   router: {
-    base: '/about-bri/'
+    base: '/personal-site/'
   }
 
 }
