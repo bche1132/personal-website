@@ -40,7 +40,7 @@ export default {
   // For git-pages
   target: 'static',
   router: {
-    base: '/personal-site/'
+    base: '/personal-website/'
   }
 
 }
