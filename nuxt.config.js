@@ -38,9 +38,5 @@ export default {
   },
 
   // For git-pages
-  target: 'static',
-  router: {
-    base: '/personal-website/'
-  }
-
+  target: 'static'
 }
