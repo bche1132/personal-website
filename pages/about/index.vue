@@ -1,10 +1,16 @@
 <template>
   <div class="w-full page-container">
-    <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-24">
-      <h1 class="text-5xl font-thin text-gray-600 lowercase tracking-wide z-50"><span class="bg-white px-4 py-2 shadow-xl">About Bri</span></h1>
+    <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full pb-8 md:py-24">
+      <div class="w-full z-50 flex flex-col md:flex-row items-center bg-white shadow-xl">
+        <img src="~/assets/images/bri_peru.jpg" class="rounded-full mx-auto md:mx-4 h-64 w-64 my-4" alt="Picture of Brianna in Peru petting a baby goat">
+        <span>
+          <h1 class="px-4 md:ml-8 text-center md:text-left text-5xl font-thin text-gray-600 lowercase tracking-wide z-50">About Bri</h1>       
+          <p class="px-4 py-2 mb-8 md:mb-0 md:ml-8 text-center md:text-left text-gray-700 text-lg max-w-screen-md leading-8 font-thin">I come with a background in both Computer Science and Art, and use these seemingly disparate fields in projects as both a UX Designer and Developer. In recent years, I have also enjoyed learning and practicing best UX Research methodologies to help inform design and enhance user experience outcomes.</p>
+        </span>
+      </div>
       <div class="w-full flex flex-col md:flex-row mx-auto z-50">
           <div class="flex flex-col w-full md:w-1/2">
-            <div class="bg-custom-pink bg-opacity-75 shadow-xl m-2">
+            <div class="bg-custom-pink bg-opacity-75 shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Design</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -49,7 +55,7 @@
                 </div>
               </div>
             </div>
-            <div class="bg-custom-mint bg-opacity-75 shadow-xl m-2">
+            <div class="bg-custom-mint bg-opacity-75 shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Soft Skills</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -96,7 +102,7 @@
             </div>
           </div>
           <div class="flex flex-col w-full md:w-1/2">
-            <div class="bg-custom-orange bg-opacity-75 shadow-xl m-2">
+            <div class="bg-custom-orange bg-opacity-75 shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Development</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -171,7 +177,7 @@
                 </div>
               </div>
             </div>
-            <div class="bg-indigo-400 bg-opacity-75 shadow-xl m-2">
+            <div class="bg-indigo-400 bg-opacity-75 shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Hobbies</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -223,7 +229,6 @@
 </template>
 <script>
 export default {
-
 }
 </script>
 <style scoped>
@@ -235,7 +240,7 @@ export default {
   background-image: url('~/assets/images/about.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.2;
+  opacity: 0.1;
   top: -100px;
   left: 0;
   bottom: 0;

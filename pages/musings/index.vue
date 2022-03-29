@@ -6,6 +6,10 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+}
+</script>
 <style scoped>
 .page-container {
   min-height: calc(100vh - 80px)
