@@ -6,9 +6,9 @@
         <span>
           <h1 class="text-5xl font-light text-gray-800 tracking-wide">COVID-19 Healthcare Coalition</h1>
           <h2 class="text-2xl font-thin text-gray-700 tracking-wide mt-4 max-w-screen-lg mx-auto">Formed during the early days of the pandemic, the COVID-19 Healthcare Coalition is a private-sector led response that brings together healthcare organizations, technology firms, nonprofits, academia, and startups to preserve the healthcare delivery system and help protect U.S. populations.</h2>
-          <p class="text-lg text-gray-700 mt-4 font-light">MITRE Designer / Developer <span class="mx-4">|</span> <a href="https://c19hcc.org" class="text-blue-700">https://c19hcc.org</a></p>
         </span>
-        <img src="~/assets/images/portfolio/work/c19hcc/c19hcc-laptop.png" alt="" class="w-3/4 mt-8">
+        <p class="text-lg bg-gray-200 py-2 text-gray-700 mt-4 flex flex-col md:flex-row justify-center w-full">MITRE Designer / Developer <span class="mx-4 text-gray-400 hidden md:block">|</span> <a href="https://c19hcc.org" class="text-blue-700">https://c19hcc.org</a></p>
+        <img src="~/assets/images/portfolio/work/c19hcc/c19hcc-laptop.png" alt="" class="w-full">
       </div>
     </div>
   </div>

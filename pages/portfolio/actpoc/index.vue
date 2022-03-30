@@ -6,9 +6,9 @@
         <span>
           <h1 class="text-5xl font-light text-gray-800 tracking-wide">ACT@POC</h1>
           <h2 class="text-2xl font-thin text-gray-700 tracking-wide mt-4 max-w-screen-lg mx-auto">The Coalition for Advancing Clinical Trials at the Point of Care (ACT@POC) aims to close evidence gaps in Clinical Trials by integrating research and care delivery.</h2> 
-          <p class="text-lg text-gray-700 mt-4 font-light">MITRE Designer / Developer <span class="mx-4">|</span> <a href="https://actpoc.org" class="text-blue-700">https://actpoc.org</a></p>
         </span>
-        <img src="~/assets/images/portfolio/work/actpoc/actpoc-laptop.png" alt="" class="w-3/4 mt-8">
+        <p class="text-lg bg-gray-200 py-2 text-gray-700 mt-4 flex flex-col md:flex-row justify-center w-full">MITRE Designer / Developer <span class="mx-4 text-gray-400 hidden md:block">|</span> <a href="https://actpoc.org" class="text-blue-700">https://actpoc.org</a></p>
+        <img src="~/assets/images/portfolio/work/actpoc/actpoc-laptop.png" alt="" class="w-full">
       </div>
     </div>
   </div>
