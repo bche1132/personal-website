@@ -6,10 +6,16 @@
         <span>
           <h1 class="px-4 md:ml-8 text-center md:text-left text-5xl font-thin text-gray-800 tracking-wide z-50">About Bri</h1>       
           <p class="px-4 py-2 mb-8 md:mb-0 md:ml-8 text-center md:text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">I have a background in both Computer Science and Art, and use these seemingly disparate fields in projects as both a UX Designer and Developer. In recent years, I have also enjoyed learning and practicing best UX Research methodologies to help inform design and enhance user experience outcomes.</p>
-          <a href="/bri_chen_resume_uxe.pdf" target="_blank" class="mx-auto mb-8 md:mb-0 md:ml-12 flex flex-row items-center justify-center w-48 border px-2 py-2 rounded text-gray-700">
+         <span class="flex flex-row items-center my-8">
+          <a href="/bri_chen_resume_uxe.pdf" target="_blank" class="md:mb-0 md:ml-12 flex flex-row items-center justify-center w-48 border-2 border-custom-mint px-2 py-2 rounded text-gray-700">
             <file-text-icon class="mr-2" size="24"></file-text-icon>
             View Resume
           </a>
+          <a href="mailto:bche1132@gmail.com?subject=Response from website" target="_blank" class="ml-4 flex flex-row items-center justify-center w-48 border-2 border-custom-mint px-2 py-2 rounded text-gray-700">
+            <mail-icon class="mr-2" size="24"></mail-icon>
+            Contact Bri
+          </a>
+         </span>
         </span>
       </div>
       <div class="w-full flex flex-col md:flex-row mx-auto z-50">
@@ -232,10 +238,11 @@
   </div>
 </template>
 <script>
-import { FileTextIcon } from 'vue-feather-icons'
+import { FileTextIcon, MailIcon } from 'vue-feather-icons'
 export default {
   components: {
-    FileTextIcon
+    FileTextIcon,
+    MailIcon
   }
 }
 </script>
