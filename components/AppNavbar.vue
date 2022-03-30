@@ -23,7 +23,7 @@
           <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <div class="hidden sm:block sm:ml-6">
               <div>
-                <ul class="flex flex-row text-gray-200 text-lg tracking-wide font-thin">
+                <ul class="flex flex-row text-gray-200 items-center text-lg tracking-wide font-thin">
                   <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-custom-mint focus:text-custom-mint" :class="{ 'text-custom-mint font-bold border-white': currentPage.includes('/about') }" to="/about">about</nuxt-link></li>
                   <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-pink-200 focus:text-pink-200" :class="{ 'text-pink-200 font-bold border-white': currentPage.includes('/portfolio') }" to="/portfolio">portfolio</nuxt-link></li>
                   <!-- <li><nuxt-link class="border-b-2 pb-2 border-black hover:text-indigo-400 focus:text-indigo-400" :class="{ 'text-indigo-400 font-bold border-white': currentPage.includes('/musings') }" to="/musings">musings</nuxt-link></li> -->
@@ -49,7 +49,13 @@
   </nav>
 </template>
 <script>
+import { FileTextIcon, MailIcon } from 'vue-feather-icons'
+
 export default {
+  components: {
+    FileTextIcon,
+    MailIcon
+  },
   data() {
     return {
       menuOpen: false
