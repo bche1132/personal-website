@@ -4,13 +4,17 @@
       <div class="w-full z-50 flex flex-col md:flex-row items-center bg-white shadow-xl">
         <img src="~/assets/images/bri_peru.jpg" class="rounded-full mx-auto md:mx-4 h-64 w-64 my-4" alt="Picture of Brianna in Peru petting a baby goat">
         <span>
-          <h1 class="px-4 md:ml-8 text-center md:text-left text-5xl font-thin text-gray-600 lowercase tracking-wide z-50">About Bri</h1>       
-          <p class="px-4 py-2 mb-8 md:mb-0 md:ml-8 text-center md:text-left text-gray-700 text-lg max-w-screen-md leading-8 font-thin">I come with a background in both Computer Science and Art, and use these seemingly disparate fields in projects as both a UX Designer and Developer. In recent years, I have also enjoyed learning and practicing best UX Research methodologies to help inform design and enhance user experience outcomes.</p>
+          <h1 class="px-4 md:ml-8 text-center md:text-left text-5xl font-thin text-gray-800 tracking-wide z-50">About Bri</h1>       
+          <p class="px-4 py-2 mb-8 md:mb-0 md:ml-8 text-center md:text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">I have a background in both Computer Science and Art, and use these seemingly disparate fields in projects as both a UX Designer and Developer. In recent years, I have also enjoyed learning and practicing best UX Research methodologies to help inform design and enhance user experience outcomes.</p>
+          <a href="/bri_chen_resume_uxe.pdf" target="_blank" class="mx-auto mb-8 md:mb-0 md:ml-12 flex flex-row items-center justify-center w-48 border px-2 py-2 rounded text-gray-700">
+            <file-text-icon class="mr-2" size="24"></file-text-icon>
+            View Resume
+          </a>
         </span>
       </div>
       <div class="w-full flex flex-col md:flex-row mx-auto z-50">
-          <div class="flex flex-col w-full md:w-1/2">
-            <div class="bg-custom-pink bg-opacity-75 shadow-xl">
+          <div class="flex flex-col w-full md:w-1/2 py-2">
+            <div class="my-1 mr-1 bg-opacity-75 bg-custom-pink shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Design</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -55,7 +59,7 @@
                 </div>
               </div>
             </div>
-            <div class="bg-custom-mint bg-opacity-75 shadow-xl">
+            <div class="my-1 mr-1 bg-opacity-75 bg-custom-mint shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Soft Skills</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -101,8 +105,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col w-full md:w-1/2">
-            <div class="bg-custom-orange bg-opacity-75 shadow-xl">
+          <div class="flex flex-col w-full md:w-1/2 py-2">
+            <div class="my-1 ml-1 bg-opacity-75  bg-custom-orange shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Development</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -141,7 +145,7 @@
                     <span class="dot dark"></span>
                     <span class="dot dark"></span>
                     <span class="dot dark"></span>
-                    <span class="dot"></span>
+                    <span class="dot dark"></span>
                     <span class="dot"></span>
                   </div>
                 </div>
@@ -160,7 +164,7 @@
                   <div class="flex flex-row ml-auto">
                     <span class="dot dark"></span>
                     <span class="dot dark"></span>
-                    <span class="dot"></span>
+                    <span class="dot dark"></span>
                     <span class="dot"></span>
                     <span class="dot"></span>
                   </div>
@@ -177,7 +181,7 @@
                 </div>
               </div>
             </div>
-            <div class="bg-indigo-400 bg-opacity-75 shadow-xl">
+            <div class="my-1 ml-1 bg-opacity-75  bg-indigo-400 shadow-xl">
               <div class="p-8">
                 <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">Hobbies</h2>
                 <div class="flex flex-row items-center mb-8">
@@ -201,7 +205,7 @@
                   </div>
                 </div>
                 <div class="flex flex-row items-center mb-8">
-                  <span class="text-gray-800 text-lg">reading for pleasure</span>
+                  <span class="text-gray-800 text-lg">reading fantasy / science-fiction novels</span>
                   <div class="flex flex-row ml-auto">
                     <span class="dot dark"></span>
                     <span class="dot dark"></span>
@@ -228,7 +232,11 @@
   </div>
 </template>
 <script>
+import { FileTextIcon } from 'vue-feather-icons'
 export default {
+  components: {
+    FileTextIcon
+  }
 }
 </script>
 <style scoped>

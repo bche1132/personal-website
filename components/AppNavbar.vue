@@ -26,7 +26,7 @@
                 <ul class="flex flex-row text-gray-200 text-lg tracking-wide font-thin">
                   <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-custom-mint focus:text-custom-mint" :class="{ 'text-custom-mint font-bold border-white': currentPage.includes('/about') }" to="/about">about</nuxt-link></li>
                   <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-pink-200 focus:text-pink-200" :class="{ 'text-pink-200 font-bold border-white': currentPage.includes('/portfolio') }" to="/portfolio">portfolio</nuxt-link></li>
-                  <li><nuxt-link class="border-b-2 pb-2 border-black hover:text-indigo-400 focus:text-indigo-400" :class="{ 'text-indigo-400 font-bold border-white': currentPage.includes('/musings') }" to="/musings">musings</nuxt-link></li>
+                  <!-- <li><nuxt-link class="border-b-2 pb-2 border-black hover:text-indigo-400 focus:text-indigo-400" :class="{ 'text-indigo-400 font-bold border-white': currentPage.includes('/musings') }" to="/musings">musings</nuxt-link></li> -->
                 </ul>
               </div>
             </div>
@@ -40,7 +40,7 @@
 
           <nuxt-link to="/portfolio" class="text-gray-300 hover:bg-pink-200 hover:text-blue-900 block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-pink-200 font-bold pb-2 text-blue-900': currentPage.includes('/portfolio') }">portfolio</nuxt-link>
 
-          <nuxt-link to="/musings" class="text-gray-300 hover:bg-indigo-400 hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-indigo-400 font-bold pb-2 text-white': currentPage.includes('/musings') }">musings</nuxt-link>        
+          <!-- <nuxt-link to="/musings" class="text-gray-300 hover:bg-indigo-400 hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-indigo-400 font-bold pb-2 text-white': currentPage.includes('/musings') }">musings</nuxt-link>         -->
         </div>
       </div>
     </div>

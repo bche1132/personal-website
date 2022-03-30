@@ -1,18 +1,18 @@
 <template>
-  <div class="w-full h-full">
-    <div class="max-w-screen-xl mx-auto flex items-center h-full">
-      <div class="z-50 content-wrapper px-4 pb-24">
-        <h1 class="text-6xl lowercase font-thin tracking-wider z-50">
-          <span class="bg-white px-4 py-2 shadow-xl"><span class="font-bold">Bri</span>anna Chen</span>
+  <div class="w-full h-full page-container flex flex-col">
+    <div class="max-w-screen-xl mx-auto flex items-center flex-grow h-full">
+      <div class="z-50 px-4 pb-24 my-auto">
+        <h1 class="text-6xl font-thin tracking-wider z-50">
+          <span class="bg-white px-4 py-2 shadow-xl">Brianna Chen</span>
         </h1>
-        <h2 class="text-5xl lowercase font-bold tracking-wider z-50 mt-4">
+        <h2 class="text-5xl font-bold tracking-wider z-50 mt-4">
           <span class="bg-white px-4 py-2 shadow-xl">UX Engineer</span>
         </h2>
         <p class="text-3xl tracking-wide font-light text-gray-700 mt-8 z-50">
            <span class="bg-white px-4 py-2 shadow-xl">passionate designer and developer committed to making beautiful user experiences.</span>
         </p>
         <p class="text-3xl tracking-wide font-light text-gray-700 mt-8 z-50">
-           <span class="bg-white px-4 py-2 shadow-xl">you can call me bri.</span>
+           <span class="bg-white px-4 py-2 shadow-xl">you can call me <span class="font-bold">Bri</span>.</span>
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style>
-.content-wrapper {
-  padding-top: calc(30vh - 80px);
+.page-container {
+  min-height: calc(100vh - 80px)
 }
 </style>

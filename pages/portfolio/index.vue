@@ -1,10 +1,13 @@
 <template>
   <div class="page-container">
-    <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-24">
-      <h1 class="text-5xl font-thin text-gray-600 lowercase tracking-wide z-50"><span class="bg-white px-4 py-2 shadow-xl">Bri's Portfolio</span></h1>
-      <div class="w-full grid grid-cols-2 gap-4">
+    <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-3/4 md:w-full h-full py-8 md:py-24">
+      <h1 class="text-5xl font-thin text-gray-800 tracking-wide z-50"><span class="bg-white px-4 py-2 shadow-xl">Portfolio</span></h1>
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-4 mt-8 z-50">
+      <!-- <div class="w-full flex flex-row flex-wrap gap-4 mt-8 z-50"> -->
         <span v-for="(work, index) in works" :key="index">
-          <app-image-card :image="work"></app-image-card>
+          <nuxt-link :to="work.relative">
+            <app-image-card :image="work"></app-image-card>
+          </nuxt-link>
         </span>
       </div>
     </div>
@@ -20,53 +23,49 @@ export default {
         {
           name: 'ACT@POC',
           description: 'Coalition for Advancing Clinical Trials at the Point of Care - Closing Evidence Gaps By Integrating Research and Care Delivery',
-          link: 'https://actpoc.org/',
+          image: require('~/assets/images/portfolio/work/actpoc/actpoc-home.png'),
+          relative: 'portfolio/actpoc'
+        },
+        {
+          name: 'Astute Canary Syndromic Community Tracker',
+          description: '',
+          link: '',
           active: true,
           public: true,
           role: 'Designer / Developer',
-          image: '~/assets/images/portfolio/work/actpoc/actpoc-home.png',
-          relative: '/actpoc'
+          image: require('~/assets/images/portfolio/work/sct/ac-sct.png'),
+          relative: 'portfolio/astute-canary-sct'
+        },
+        {
+          name: 'COVID-19 Healthcare Coalition',
+          description: 'The COVID-19 Healthcare Coalition is a private-sector led response that brings together healthcare organizations, technology firms, nonprofits, academia, and startups to preserve the healthcare delivery system and help protect U.S. populations.',
+          link: 'https://c19hcc.org/',
+          active: true,
+          public: true,
+          role: 'Designer / Developer',
+          image: require('~/assets/images/portfolio/work/c19hcc/c19hcc.png'),
+          relative: 'portfolio/c19hcc'
+        },
+        {
+          name: 'Decision Support Dashboard',
+          description: '',
+          link: '',
+          active: true,
+          public: true,
+          role: 'Designer / Developer',
+          image: require('~/assets/images/portfolio/work/dsd/dsd.png'),
+          relative: 'portfolio/dsd'
+        },
+        {
+          name: 'Logos',
+          description: '',
+          link: '',
+          active: true,
+          public: true,
+          role: 'Designer',
+          image: require('~/assets/images/logos.png'),
+          relative: 'portfolio/logos'
         }
-        // {
-        //   name: 'Astute Canary Syndromic Community Tracker',
-        //   description: '',
-        //   link: '',
-        //   active: true,
-        //   public: true,
-        //   role: 'Designer / Developer',
-        //   image: '',
-        //   relative: 'astute-canary-sct'
-        // },
-        // {
-        //   name: 'COVID-19 Healthcare Coalition',
-        //   description: '',
-        //   link: '',
-        //   active: true,
-        //   public: true,
-        //   role: 'Designer / Developer',
-        //   image: '',
-        //   relative: 'c19hcc'
-        // },
-        // {
-        //   name: 'Decision Support Dashboard',
-        //   description: '',
-        //   link: '',
-        //   active: true,
-        //   public: true,
-        //   role: 'Designer / Developer',
-        //   image: '',
-        //   relative: 'dsd'
-        // },
-        // {
-        //   name: 'Vaccination Credential Initiative',
-        //   description: '',
-        //   link: '',
-        //   active: true,
-        //   public: true,
-        //   role: 'Designer / Developer',
-        //   image: '',
-        //   relative: 'vci'
-        // }
       ],
     }
   }
