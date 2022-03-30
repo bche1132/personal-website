@@ -6,7 +6,7 @@
         <span>
           <h1 class="px-4 md:ml-8 text-center md:text-left text-5xl font-thin text-gray-800 tracking-wide z-50">About Bri</h1>       
           <p class="px-4 py-2 mb-8 md:mb-0 md:ml-8 text-center md:text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">I have a background in both Computer Science and Art, and use these seemingly disparate fields in projects as both a UX Designer and Developer. In recent years, I have also enjoyed learning and practicing best UX Research methodologies to help inform design and enhance user experience outcomes.</p>
-         <span class="flex flex-row items-center my-8">
+         <span class="flex flex-row items-center justify-center md:justify-start my-8 px-4 md:px-0">
           <a href="/bri_chen_resume_uxe.pdf" target="_blank" class="md:mb-0 md:ml-12 flex flex-row items-center justify-center w-48 border-2 border-custom-mint px-2 py-2 rounded text-gray-700 hover:bg-custom-mint hover:bg-opacity-25 focus:bg-custom-mint focus:bg-opacity-25">
             <file-text-icon class="mr-2" size="24"></file-text-icon>
             View Resume
@@ -207,6 +207,16 @@
                     <span class="dot dark"></span>
                     <span class="dot dark"></span>
                     <span class="dot dark"></span>
+                    <span class="dot"></span>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center mb-8">
+                  <span class="text-gray-800 text-lg">pottery</span>
+                  <div class="flex flex-row ml-auto">
+                    <span class="dot dark"></span>
+                    <span class="dot dark"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
                     <span class="dot"></span>
                   </div>
                 </div>
