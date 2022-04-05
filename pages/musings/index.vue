@@ -2,7 +2,7 @@
   <div class="page-container">
     <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-24">
       <h1 class="text-5xl font-thin text-gray-600 lowercase tracking-wide z-50"><span class="bg-white px-4 py-2 shadow-xl">Bri's Resume</span></h1>
-      <embed src="/bri_chen_resume_uxe.pdf" width="1440px" height="900px" class="z-50"/>
+      <embed src="/Brianna_Chen_UXE_Resume.pdf" width="1440px" height="900px" class="z-50"/>
     </div>
   </div>
 </template>

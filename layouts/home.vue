@@ -17,7 +17,8 @@ import AppNavbar from '@/components/AppNavbar.vue'
   content: '';
   background-image: url('../assets/images/home-image.svg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: repeat;
   opacity: 0.3;
   top: -80px;
   left: 0;
@@ -25,6 +26,6 @@ import AppNavbar from '@/components/AppNavbar.vue'
   right: 0;
   position: fixed;
   z-index: 0;
-  max-width: 1700px;
+  width: 100vw;
 }
 </style>

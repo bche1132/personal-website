@@ -24,7 +24,7 @@ export default {
           name: 'ACT@POC',
           description: 'Coalition for Advancing Clinical Trials at the Point of Care - Closing Evidence Gaps By Integrating Research and Care Delivery',
           image: require('~/assets/images/portfolio/work/actpoc/actpoc-home.png'),
-          relative: 'portfolio/actpoc'
+          relative: '/portfolio/actpoc'
         },
         {
           name: 'Astute Canary Syndromic Community Tracker',
@@ -34,7 +34,7 @@ export default {
           public: true,
           role: 'Designer / Developer',
           image: require('~/assets/images/portfolio/work/sct/ac-sct.png'),
-          relative: 'portfolio/astute-canary-sct'
+          relative: '/portfolio/astute-canary-sct'
         },
         {
           name: 'COVID-19 Healthcare Coalition',
@@ -44,7 +44,7 @@ export default {
           public: true,
           role: 'Designer / Developer',
           image: require('~/assets/images/portfolio/work/c19hcc/c19hcc.png'),
-          relative: 'portfolio/c19hcc'
+          relative: '/portfolio/c19hcc'
         },
         {
           name: 'Decision Support Dashboard',
@@ -54,7 +54,7 @@ export default {
           public: true,
           role: 'Designer / Developer',
           image: require('~/assets/images/portfolio/work/dsd/dsd.png'),
-          relative: 'portfolio/dsd'
+          relative: '/portfolio/dsd'
         },
         {
           name: 'Logos',
@@ -64,7 +64,7 @@ export default {
           public: true,
           role: 'Designer',
           image: require('~/assets/images/logos.png'),
-          relative: 'portfolio/logos'
+          relative: '/portfolio/logos'
         }
       ],
     }
