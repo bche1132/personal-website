@@ -2,13 +2,18 @@
   <div class="page-container">
     <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-3/4 md:w-full h-full py-8 md:py-24">
       <h1 class="text-5xl font-thin text-gray-800 tracking-wide z-50"><span class="bg-white px-4 py-2 shadow-xl">Portfolio</span></h1>
+        <h2 class="text-3xl font-black text-gray-800 tracking-wide z-50 mt-20">Come back soon :)</h2>
+        <h3 class="text-2xl font-light text-gray-800 tracking-wide z-50 mt-8">
+          Working on some great content. Check back soon to see the latest.  
+        </h3>
       <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-4 mt-8 z-50">
+        
       <!-- <div class="w-full flex flex-row flex-wrap gap-4 mt-8 z-50"> -->
-        <span v-for="(work, index) in works" :key="index">
+        <!-- <span v-for="(work, index) in works" :key="index">
           <nuxt-link :to="work.relative">
             <app-image-card :image="work"></app-image-card>
           </nuxt-link>
-        </span>
+        </span> -->
       </div>
     </div>
   </div>
