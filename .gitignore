@@ -9,3 +9,4 @@ dist
 .nuxt
 # System files
 *.log
+*.DS_Store
