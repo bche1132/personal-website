@@ -99,26 +99,22 @@
       > 
           <h4 class="font-medium text-4xl text-white mx-auto mb-12">Let's connect</h4>
           <div class="flex flex-col gap-4 align-center mx-auto">
-            <div>
               <a
                 href="/Brianna_Chen_UXE_Resume.pdf"
                 target="_blank"
-                class="rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer hover:bg-yellow-400 focus:bg-yellow-400"
+                class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
               >
                 <file-text-icon class="mr-2" size="24"></file-text-icon>
                 View Resume
               </a>
-            </div>
-            <div>
               <a
                 href="mailto:bche1132@gmail.com?subject=Response from website"
                 target="_blank"
-                class="rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer hover:bg-yellow-400 focus:bg-yellow-400"
+                class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
               >
                 <mail-icon class="mr-2" size="24"></mail-icon>
                 Contact Bri
               </a>
-              </div>
           </div>
     </div>
   </div>
