@@ -7,6 +7,7 @@
     <h3 class="card-zoom-text">
       {{ image.name }}
     </h3>
+    <!-- {{  image }} -->
   </div>
 </template>
 <script>

@@ -5,24 +5,22 @@
     >
       <div class="z-50 px-4 pb-24 my-auto">
         <span class="text-6xl font-bold tracking-wider z-50">
-          <h1 class="bg-white px-4 py-2 shadow-xl capitalize">Brianna Chen</h1>
+          <h1 class="bg-white px-4 py-2 capitalize">Brianna Chen | UX Engineer</h1>
         </span>
-        <h2 class="text-5xl font-bold tracking-wider z-50 mt-4">
-          <span class="bg-white px-4 py-2 shadow-xl">UX Engineer</span>
-        </h2>
         <p
-          class="text-3xl tracking-wide font-light text-gray-700 mt-8 z-50 bg-white px-4 py-2 shadow-xl"
+          class="text-3xl tracking-wide font-light text-gray-700 mt-8 z-50 bg-white px-4 py-2"
+          id="typein"
         >
-          <span class=""
-            >I'm a designer and developer committed to making beautiful user
-            experiences.</span
-          >
         </p>
-        <p class="text-3xl tracking-wide font-light text-gray-700 mt-8 z-50">
-          <span class="bg-white px-4 py-2 shadow-xl"
-            >you can call me <span class="font-bold">Bri</span>.</span
-          >
-        </p>
+        <div class="mt-12">
+          
+          <nuxt-link
+                to="/about"
+                class="rounded-full inline-flex text-xl items-center px-8 py-2 bg-custom-orange font-light cursor-pointer primary-btn"
+              >
+                <span>Learn more </span>
+              </nuxt-link>
+        </div>
       </div>
     </div>
   </div>
@@ -31,11 +29,60 @@
 <script>
 export default {
   layout: "home",
+  data() {
+    return {
+      i: 0,
+      speed: 50,
+      message: "I'm a designer and developer committed to making beautiful user experiences."
+    }
+  },
+  methods: {
+    typeWriter() {
+      if (this.i < this.message.length) {
+        document.getElementById("typein").innerHTML += this.message.charAt(this.i);
+        this.i++;
+        setTimeout(this.typeWriter, this.speed);
+      }
+    }
+  },
+  mounted() {
+    this.typeWriter();
+  }
 };
 </script>
 
 <style>
 .page-container {
   min-height: calc(100vh - 80px);
+}
+.primary-btn {
+  transition: all 0.5s;
+}
+.primary-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.primary-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.primary-btn:hover span {
+  padding-right: 25px;
+}
+
+.primary-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.primary-btn:hover, .primary-btn:focus {
+  scale: 1.2;
 }
 </style>

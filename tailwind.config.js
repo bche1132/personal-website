@@ -11,10 +11,10 @@ module.exports = {
     extend: {
       colors: {
         custom : {
-          'pink' : '#F8BEBA',
-          'mint' : '#39BDAA',
-          'orange' : '#FAB752',
-          'indigo' : '#435eaa'
+          'pink' : '#E83F6F',
+          'mint' : '#32936F',
+          'orange' : '#FFBF00',
+          'indigo' : '#0b1d51'
         }
       }
     },

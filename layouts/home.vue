@@ -1,5 +1,5 @@
 <template>
-    <div class="hero bg-gradient-to-r from-white to-gray-200 min-h-screen">
+    <div class="hero min-h-screen">
       <app-navbar />
       <Nuxt />
     </div>
@@ -15,10 +15,10 @@ import AppNavbar from '@/components/AppNavbar.vue'
 <style>
 .hero::after {
   content: '';
-  background-image: url('../assets/images/home-image.svg');
+  /* background-image: url('../assets/images/home-image.svg');
   background-size: cover;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: repeat; */
   opacity: 0.3;
   top: -80px;
   left: 0;

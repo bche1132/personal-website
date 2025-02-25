@@ -4,278 +4,122 @@
       class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full pb-8 md:py-24"
     >
       <div
-        class="w-full z-50 flex flex-col md:flex-row items-center bg-white shadow-xl"
-      >
-        <img
-          src="~/assets/images/bri_peru.jpg"
-          class="rounded-full mx-auto md:mx-4 h-64 w-64 my-4"
-          alt="Picture of Brianna in Peru petting a baby goat"
-        />
-        <span>
+        class="w-full z-50 flex flex-col pb-24 px-12"
+        > 
+          
+          <img
+            src="~/assets/images/bri_peru.jpg"
+            class="mx-auto h-64 w-64 my-4 z-50 shadow-lg"
+            alt="Picture of Brianna in Peru petting a baby goat"
+          />
+          <div class="rectangle"></div>
           <h1
-            class="px-4 md:ml-8 text-center md:text-left text-5xl font-thin text-gray-800 tracking-wide z-50"
+            class="px-4 mt-8 text-center text-4xl font-bold text-gray-800 tracking-wide"
           >
-            About Bri
+            Hi there! You can call me <span class="text-custom-pink">Bri!</span>
           </h1>
-          <p
-            class="px-4 py-2 mb-8 md:mb-0 md:ml-8 text-center md:text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin"
+          <!-- <div
+            class="my-8 mx-auto text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin italic cloud bg-blue-200 p-4"
           >
             I have a background in both Computer Science and Art, and use these
             seemingly disparate fields in projects as both a UX Designer and
             Developer. In recent years, I have also enjoyed learning and
             practicing UX Research methodologies to help inform design and
             enhance user experience outcomes.
-          </p>
-          <span
-            class="flex flex-col md:flex-row md:items-center justify-center md:justify-start my-8 px-4 md:px-0"
-          >
-            <a
-              href="/Brianna_Chen_UXE_Resume.pdf"
-              target="_blank"
-              class="mx-auto md:mx-0 md:mb-0 md:ml-12 flex flex-row items-center justify-center w-48 border-2 border-custom-mint px-2 py-2 rounded text-gray-700 hover:bg-custom-mint hover:bg-opacity-25 focus:bg-custom-mint focus:bg-opacity-25"
-            >
-              <file-text-icon class="mr-2" size="24"></file-text-icon>
-              View Resume
-            </a>
-            <a
-              href="mailto:bche1132@gmail.com?subject=Response from website"
-              target="_blank"
-              class="mx-auto md:mx-0 mt-4 md:mt-0 md:ml-4 flex flex-row items-center justify-center w-48 border-2 border-custom-mint px-2 py-2 rounded text-gray-700 hover:bg-custom-mint hover:bg-opacity-25 focus:bg-custom-mint focus:bg-opacity-25"
-            >
-              <mail-icon class="mr-2" size="24"></mail-icon>
-              Contact Bri
-            </a>
-          </span>
-        </span>
+          </div> -->
+
+          <div class="my-8 mx-auto text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
+            <h2 class="text-xl font-medium text-left mt-12">My Journey into UX:</h2>
+            <ol class="list-decimal pt-8 text-left text-gray-800 text-lg ml-6">
+              <li>Earned a Bachelor's degree in Art, specializing in oil painting</li> 
+              <li>Explored interior design for a brief period</li>
+              <li>Completed a Master's in Computer Science with a focus on Game Design</li>
+              <li>Began my career as a Graphics & Visualization Software Engineer in a research and innovation company</li>
+              <li>Discovered my passion for blending development and design—leading me to become a UX Engineer</li>
+            </ol>
+            <h2 class="text-xl font-medium text-left mt-12">What I Do Day-to-Day</h2>
+            <p class="mt-8">No two days are the same! I thrive in a fast-paced environment, managing multiple projects while balancing strategic planning with adaptability. Working across diverse industries and customer needs means constantly learning, evolving, and embracing new technologies.</p>
+            <p class="mt-4">A typical day might involve:</p>
+            <ul class="list-disc  ml-6">
+              <li>Reviewing wireframes and refining user flows</li>
+              <li>Designing high-fidelity mockups</li>
+              <li>Conducting user research and interviews</li>
+              <li>Developing front-end components to bring designs to life</li>
+              <li>Refining product templates or drafting new logos</li>
+            </ul>
+            <p class="mt-4">Beyond my role as a UX Engineer, I also lead a team—ensuring they are engaged in meaningful work where they can create impact.</p>
+            <h2 class="text-xl font-medium text-left mt-12">Why UX?</h2>
+            <p class="mt-8">
+              UX combines my love for creativity and technology. It allows me to design functional, innovative experiences while advocating for the needs of real users. <b>For me, it’s about crafting intuitive, impactful solutions that bridge the gap between design and development.</b></p>
+            
+          </div>
       </div>
-      <div class="w-full flex flex-col md:flex-row mx-auto z-50">
-        <div class="flex flex-col w-full md:w-1/2 py-2">
-          <div class="my-1 mr-1 bg-opacity-75 bg-custom-pink shadow-xl">
-            <div class="p-8">
-              <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">
-                Design & Research
-              </h2>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">ux design</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">research</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">logo & <br />branding</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-            </div>
+    </div>
+    <div
+        class="flex flex-col py-24 align-center justify-center w-full bg-custom-indigo"
+      > 
+        <h4 class="font-medium text-4xl text-white mx-auto mb-12">I also enjoy</h4>
+        <div class="grid grid-cols-1 md:grid-cols-4 max-w-screen-xl mx-auto gap-8">
+          <div>
+            <img
+              src="~/assets/images/hobbies/art.jpg"
+              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-pink"
+              alt="Picture of Brianna in front of an oil painting"
+            />
+            <h4 class="font-light text-white px-2  py-1 text-xl">Painting</h4>
           </div>
-          <div class="my-1 mr-1 bg-opacity-75 bg-custom-mint shadow-xl">
-            <div class="p-8">
-              <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">
-                Soft Skills
-              </h2>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">mentorship</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">teaching</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">technical leadership</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">puns</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-            </div>
+          <div>
+            <img
+              src="~/assets/images/hobbies/lounging.jpg"
+              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-mint"
+              alt="Picture of two adorable kittens"
+            />
+            <h4 class="font-light text-white px-2  py-1 text-xl">Lounging</h4>
           </div>
-        </div>
-        <div class="flex flex-col w-full md:w-1/2 md:py-2">
-          <div class="my-1 ml-1 bg-opacity-75 bg-custom-orange shadow-xl">
-            <div class="p-8">
-              <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">
-                Development
-              </h2>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">front-end development</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">html/css</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">javascript</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">visualizations</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">back-end development</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">database systems</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">medium articles read</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-            </div>
+          <div>
+            <img
+              src="~/assets/images/hobbies/travel.jpg"
+              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-orange"
+              alt="Picture of Brianna in Peru with llamas walking in front"
+            />
+            <h4 class="font-light text-white px-2  py-1 text-xl">Traveling</h4>
           </div>
-          <div class="my-1 ml-1 bg-opacity-75 bg-indigo-400 shadow-xl">
-            <div class="p-8">
-              <h2 class="uppercase text-lg mb-4 font-bold text-gray-800">
-                Hobbies
-              </h2>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">cooking</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">painting</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg">pottery</span>
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg"
-                  >reading fantasy / science-fiction novels</span
-                >
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="flex flex-row items-center mb-8">
-                <span class="text-gray-800 text-lg"
-                  >researching interior design trends</span
-                >
-                <div class="flex flex-row ml-auto">
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                  <span class="dot dark"></span>
-                </div>
-              </div>
-            </div>
+          <div>
+            <img
+              src="~/assets/images/hobbies/gaming.jpg"
+              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-pink"
+              alt="Picture of board game pandemic"
+            />
+            <h4 class="font-light text-white px-2  py-1 text-xl">Playing Games</h4>
           </div>
         </div>
       </div>
+    <div
+        class="flex flex-col py-24 align-center justify-center w-full bg-custom-mint"
+      > 
+          <h4 class="font-medium text-4xl text-white mx-auto mb-12">Let's connect</h4>
+          <div class="flex flex-col gap-4 align-center mx-auto">
+            <div>
+              <a
+                href="/Brianna_Chen_UXE_Resume.pdf"
+                target="_blank"
+                class="rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer hover:bg-yellow-400 focus:bg-yellow-400"
+              >
+                <file-text-icon class="mr-2" size="24"></file-text-icon>
+                View Resume
+              </a>
+            </div>
+            <div>
+              <a
+                href="mailto:bche1132@gmail.com?subject=Response from website"
+                target="_blank"
+                class="rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer hover:bg-yellow-400 focus:bg-yellow-400"
+              >
+                <mail-icon class="mr-2" size="24"></mail-icon>
+                Contact Bri
+              </a>
+              </div>
+          </div>
     </div>
   </div>
 </template>
@@ -294,9 +138,9 @@ export default {
 }
 .page-container::after {
   content: "";
-  background-image: url("~/assets/images/about.svg");
+  /* background-image: url("~/assets/images/about.svg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   opacity: 0.1;
   top: -100px;
   left: 0;
@@ -315,5 +159,47 @@ export default {
 }
 .dot.dark {
   background-color: black;
+}
+.cloud{ 
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+}
+.footer {
+  background: #2274A5;
+}
+.button {
+  background: #FFBF00;
+}
+.rectangle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: #FFBF00;
+  margin-left: 20%;
+  /* margin-top: -50px; */
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    top: 40px;
+}
+.shape {
+    width: 250px;
+    height: 250px;
+    background: navy;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    top: 50px;
+    overflow: hidden;
+}
+
+#top-left {
+    width: 150px;
+    height: 150px;
+    background: purple;
+    position: relative;
+    left: -25px;
 }
 </style>
