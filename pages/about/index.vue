@@ -1,10 +1,10 @@
 <template>
   <div class="w-full page-container">
     <div
-      class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full pb-8 md:py-24"
+      class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full"
     >
       <div
-        class="w-full z-50 flex flex-col pb-24 px-12"
+        class="w-full z-50 flex flex-col p-12"
         > 
           
           <img
