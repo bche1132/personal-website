@@ -18,6 +18,9 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
+  image: {
+    dir: 'assets/images',
+  },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [

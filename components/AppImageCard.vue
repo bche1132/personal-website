@@ -4,10 +4,7 @@
       class="card-zoom-image"
       :style="'background-image: url(' + image.image + ')'">
     </div>
-    <h3 class="card-zoom-text">
-      {{ image.name }}
-    </h3>
-    <!-- {{  image }} -->
+    {{ image }}
   </div>
 </template>
 <script>
@@ -26,6 +23,8 @@ export default {
 }
 .card-zoom-image {
   @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+  min-width: 400px;
+  width: 400px;
 }
 .card-zoom-text {
   @apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-100 opacity-0 px-4;

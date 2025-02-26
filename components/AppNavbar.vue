@@ -24,8 +24,10 @@
             <div class="hidden sm:block sm:ml-6">
               <div>
                 <ul class="flex flex-row items-center text-lg tracking-wide font-thin">
-                  <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-custom-mint focus:text-custom-mint" :class="{ 'text-custom-mint font-bold border-white': currentPage.includes('/about') }" to="/about">about</nuxt-link></li>
-                  <!-- <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-pink-600 focus:text-pink-600" :class="{ 'text-pink-600 font-bold border-white': currentPage.includes('/portfolio') }" to="/portfolio">portfolio</nuxt-link></li> -->
+                  <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-pink-600 focus:text-pink-600"  to="/">work </nuxt-link></li>
+                  <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-custom-mint focus:text-custom-mint"  to="/about">about</nuxt-link></li>
+                    <li><a class="mr-8 border-b-2 pb-2 border-black hover:text-orange-800 focus:text-orange-800"  href="/Brianna_Chen_UXE_Resume.pdf"
+                target="_blank">resume</a></li>
                   <!-- <li><nuxt-link class="border-b-2 pb-2 border-black hover:text-indigo-400 focus:text-indigo-400" :class="{ 'text-indigo-400 font-bold border-white': currentPage.includes('/musings') }" to="/musings">musings</nuxt-link></li> -->
                 </ul>
               </div>

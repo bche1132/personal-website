@@ -104,7 +104,6 @@
                 target="_blank"
                 class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
               >
-                <file-text-icon class="mr-2" size="24"></file-text-icon>
                 View Resume
               </a>
               <a
@@ -112,7 +111,6 @@
                 target="_blank"
                 class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
               >
-                <mail-icon class="mr-2" size="24"></mail-icon>
                 Contact Bri
               </a>
           </div>
