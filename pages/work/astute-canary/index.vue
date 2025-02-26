@@ -29,9 +29,9 @@
                   The pandemic of 2020 showed a gap in the market for early warning systems at an organizational level.
                   Astute Canary aimed to close that gap. The design and development team worked together to quickly pull together a proof-of-concept risk assessment dashboard and an open-source syndromic community tracker.
                 </p>
-                <p class="text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">I also worked with the outreach team to create infographs, pitchdecks, and the logo.</p>
+                <p class="text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">I also worked with the outreach team to create infographs, pitchdecks, and other branding elements, such as the logo.</p>
             </div>
-            <img src="@/assets/images/portfolio/work/sct/blue-banner.jpg" class="hidden md:flex sample-img" alt=""/>
+            <img src="@/assets/images/portfolio/work/sct/ac-logo.png" class="hidden md:flex sample-img tall" alt=""/>
         </div>
         
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
@@ -109,6 +109,6 @@ export default {
   max-width: 500px;
 }
 .tall {
-  max-width: 300px !important;
+  max-width: 250px !important;
 }
 </style>

@@ -24,9 +24,9 @@
             <div class="hidden sm:block sm:ml-6">
               <div>
                 <ul class="flex flex-row items-center text-lg tracking-wide font-thin">
-                  <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-pink-600 focus:text-pink-600"  to="/">work </nuxt-link></li>
-                  <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-custom-mint focus:text-custom-mint"  to="/about">about</nuxt-link></li>
-                    <li><a class="mr-8 border-b-2 pb-2 border-black hover:text-orange-800 focus:text-orange-800"  href="/Brianna_Chen_UXE_Resume.pdf"
+                  <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-pink-600 focus:text-pink-600"  to="/" :class="{ 'text-pink-600': currentPage == '/' }">work </nuxt-link></li>
+                  <li><nuxt-link class="mr-8 border-b-2 pb-2 border-black hover:text-custom-mint focus:text-custom-mint"  to="/about" :class="{ 'text-custom-mint': currentPage.includes('/about') }">about</nuxt-link></li>
+                  <li><a class="mr-8 border-b-2 pb-2 border-black hover:text-orange-800 focus:text-orange-800"  href="/Brianna_Chen_UXE_Resume.pdf"
                 target="_blank">resume</a></li>
                   <!-- <li><nuxt-link class="border-b-2 pb-2 border-black hover:text-indigo-400 focus:text-indigo-400" :class="{ 'text-indigo-400 font-bold border-white': currentPage.includes('/musings') }" to="/musings">musings</nuxt-link></li> -->
                 </ul>
@@ -38,10 +38,10 @@
       <!-- Mobile menu, show/hide based on menu state. -->
       <div class="block z-50 sm:hidden" id="mobile-menu" v-if="menuOpen">
         <div class="pt-8 text-center pb-3 space-y-1 ">
+          <nuxt-link to="/" class="text-black hover:bg-pink-600 hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-pink-200 font-bold pb-2 text-blue-900': currentPage == '/' }">work</nuxt-link>
           <nuxt-link to="/about" class="text-black  hover:bg-custom-mint hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-custom-mint font-bold pb-2 ': currentPage.includes('/about') }">about</nuxt-link>
-
-          <!-- <nuxt-link to="/portfolio" class="text-black hover:bg-pink-600 hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-pink-200 font-bold pb-2 text-blue-900': currentPage.includes('/portfolio') }">portfolio</nuxt-link> -->
-
+          <a class="text-black block px-3 py-2 rounded-md text-base font-bold hover:bg-orange-800 focus:bg-orange-800 hover:text-white focus:text-white"  href="/Brianna_Chen_UXE_Resume.pdf"
+                target="_blank">resume</a>
           <!-- <nuxt-link to="/musings" class="text-gray-300 hover:bg-indigo-400 hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-indigo-400 font-bold pb-2 text-white': currentPage.includes('/musings') }">musings</nuxt-link>         -->
         </div>
       </div>
