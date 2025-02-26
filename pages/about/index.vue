@@ -12,7 +12,7 @@
             class="mx-auto h-64 w-64 my-4 z-50 shadow-lg"
             alt="Picture of Brianna in Peru petting a baby goat"
           />
-          <div class="rectangle"></div>
+          <div class="hidden rectangle md:flex"></div>
           <h1
             class="px-4 mt-8 text-center text-4xl font-bold text-gray-800 tracking-wide"
           >
