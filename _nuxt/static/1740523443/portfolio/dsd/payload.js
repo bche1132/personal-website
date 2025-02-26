@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/portfolio/dsd", {data:[{}],fetch:{},mutations:void 0});
