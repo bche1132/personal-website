@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <div class="bg-custom-orange">
+    <div class="bg-midcent-blush">
         <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 md:py-24 px-4 md:px-0">
             <back-to-portfolio></back-to-portfolio>
             <div class="flex flex-col  w-full mt-8">
@@ -20,7 +20,7 @@
     </div>
     <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 px-4 md:px-0">
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Introduction</h3>
                 <p class="mb-8 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
                   In the early days of the pandemic, MITRE established a coalition of private and public industry members to swiftly collect and disseminate vital data to industry experts, aiming to address the global health crisis. MITRE rapidly developed websites, tools, and sharing platforms to ensure experts had access to this critical information. These tools were designed, developed, and deployed at an unprecedented speed to meet the evolving global demands. This work was distinctive, focusing not on a single tool or design, but on the overall UX approach to address needs during a rapidly changing crisis.
@@ -31,7 +31,7 @@
         
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
             <img src="@/assets/images/portfolio/work/dsd/dsd-devices.png" class="sample-img" alt=""/>
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Challenges</h3>
                 <p class="mt-8 mb-4  max-w-screen-md text-left text-gray-800 text-lg leading-8 font-thin">
                     The urgency in which the tools and data were needed circumvented many typical "good" user centered design practices.
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Approach</h3>
                 <ul class="list-disc ml-6 mt-4 text-gray-800 text-lg leading-8 font-thin">
                     <li>We generated personas of healthcare experts including clinicians, policy and decision makers, and data analysts</li>
@@ -55,7 +55,7 @@
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
             <img src="@/assets/images/portfolio/work/c19hcc/chai.png" class="sample-img" alt=""/>
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Outcome</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
                     We created:
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="flex flex-col md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">What I Learned</h3>
                 <ul class="list-disc ml-6 mt-4 text-gray-800 text-lg leading-8 font-thin">
                     <li>It is worth the time and effort to create reusable templates and processes to enable user centered design on any timeline.</li>

@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <div class="bg-pink-400">
+    <div class="bg-midcent-orange">
         <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 md:py-24 px-4 md:px-0">
             <back-to-portfolio></back-to-portfolio>
             <div class="flex flex-col  w-full mt-8">
@@ -20,7 +20,7 @@
     </div>
     <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 px-4 md:px-0">
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Introduction</h3>
                 <p class="my-8 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
                     MITRE ATT&CK is a universally accessible, continuously updated knowledge base for modeling, detecting, preventing and fighting cybersecurity threats.
@@ -32,7 +32,7 @@
         
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
             <img src="@/assets/images/portfolio/work/attack/page-mapping.png" class="sample-img" alt=""/>
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Challenges</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
                     As with any new design opportunity, there are challenges. This was no exception.
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Approach</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
                 With a quick turn-around time requested to release the site, we decided to utilize a lean UX approach: 
@@ -63,7 +63,7 @@
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
             <img src="@/assets/images/portfolio/work/attack/sample-search.png" class="sample-img" alt=""/>
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Outcome</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
                     Initial informational layout tested well with users, finding the new navigation structure easy to traverse and preferable to the Wiki format.
@@ -77,7 +77,7 @@
             </div>
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <div class="md:w-1/2 bg-gray-200 p-4">
+            <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">What I Learned</h3>
                 <p class="my-8 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
                     This project was pivotal in my journey with design. It highlighted the significance of iterative user feedback, ensuring user involvement from the outset, and demonstrated that user-centered design principles can be universally applied, regardless of one's familiarity with the domain.
@@ -85,7 +85,6 @@
             </div>
             <img src="@/assets/images/portfolio/work/attack/homepage.png" class="sample-img" alt=""/>
         </div>
-        
       </div>
     </div>
 </template>

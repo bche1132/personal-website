@@ -4,30 +4,38 @@
       class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto"
     >
       <div class="py-24">
-        <span class="text-6xl font-bold tracking-wider flex flex-start">
-          <h1 class="bg-white py-2 capitalize">Brianna Chen | UX Engineer</h1>
+        <span class="text-6xl font-bold flex flex-start">
+          <h1 class="py-2 capitalize">Brianna Chen</h1>
         </span>
         <p
-          class="text-3xl tracking-wide font-light text-gray-800 mt-4 bg-white py-2 flex flex-start"
+          class="text-2xl tracking-wide font-light py-2 flex flex-start"
         >
           I'm a designer and developer committed to making beautiful user experiences.
         </p>
-        <div class="mt-8">
+        <div class="mt-8 inline-flex gap-8">
           <nuxt-link
                 to="/about"
-                class="rounded-full inline-flex text-xl items-center px-8 py-2 bg-custom-orange font-light cursor-pointer primary-btn"
+                class="rounded-full inline-flex text-xl items-center px-8 py-2 bg-midcent-orange text-white font-light cursor-pointer primary-btn cal-sans-regular"
               >
                 <span>Learn more </span>
               </nuxt-link>
+          <a
+                href="/Brianna_Chen_UXE_Resume.pdf"
+                class="rounded-full inline-flex text-xl items-center px-8 py-2 border border-midcent-orange text-midcent-orange font-light cursor-pointer primary-btn cal-sans-regular"
+              >
+                <span>View resume </span>
+              </a>
         </div>
       </div>
     </div>
-    <div
-          class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto flex flex-col h-full"
-        >
-        <h2 class="text-4xl font-light text-gray-800 mb-8">Selected Works:</h2>
+    <div class="bg-white flex w-full">
+      <div
+            class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto flex flex-col h-full bg-white"
+          >
+          <h2 class="text-3xl font-light text-gray-800 my-8">Selected works:</h2>
+      </div>
     </div>
-    <div class="bg-pink-400 flex w-full">
+    <div class="bg-white flex w-full">
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
@@ -39,16 +47,16 @@
               </p>
               <nuxt-link
                 to="/work/attack"
-                class="rounded-full text-xl items-center px-8 py-2 primary-btn  bg-custom-indigo text-white font-light cursor-pointer mt-2"
+                class="rounded-full text-xl items-center px-8 py-2 primary-btn border border-midcent-orange text-midcent-orange font-light cursor-pointer mt-2 cal-sans-regular button"
               >
-                View work
+                <span>View work</span>
               </nuxt-link>
             </div>
             <img src="@/assets/images/portfolio/work/attack/attack-homepage.png" class="work-image" alt=""/>
           </div>
         </div>
     </div>
-    <div class="bg-custom-gray-200 flex w-full">
+    <div class="flex w-full">
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
@@ -64,15 +72,15 @@
               </p>
               <nuxt-link
                 to="/work/astute-canary"
-                class="rounded-full text-xl items-center px-8 py-2 primary-btn  bg-custom-indigo text-white font-light cursor-pointer mt-2"
+                class="rounded-full text-xl items-center px-8 py-2 primary-btn border border-midcent-orange text-midcent-orange font-light cursor-pointer mt-2 cal-sans-regular"
               >
-                View work
+                <span>View work</span>
               </nuxt-link>
             </div>
           </div>
         </div>
     </div>
-    <div class="bg-custom-orange flex w-full">
+    <div class="bg-white border-b flex w-full">
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
@@ -84,9 +92,9 @@
               </p>
               <nuxt-link
                 to="/work/coalition"
-                class="rounded-full text-xl items-center px-8 py-2 primary-btn  bg-custom-indigo text-white font-light cursor-pointer mt-2"
+                class="rounded-full text-xl items-center px-8 py-2 primary-btn border border-midcent-orange text-midcent-orange font-light cursor-pointer mt-2 cal-sans-regular"
               >
-                View work
+                <span>View work</span>
               </nuxt-link>
             </div>
             <img src="@/assets/images/portfolio/work/c19hcc/c19hcc-browser.png" class="work-image" alt=""/>
@@ -96,36 +104,15 @@
     <div
       class="max-w-screen-xl px-8 xl:px-0 mx-auto flex flex-col h-full"
     >
-      <div class="bg-gray-200 rounded font-light text-xl italic mt-8 p-12 mb-8">Note: Due to the nature of my current organization, most of my work can not be shared externally. Including much of my dashboard, game, and other web application work.</div>
+      <div class="border border-midcent-dark-green rounded font-light text-xl mt-8 p-12 mb-8 cal-sans-regular">Note: Due to the nature of my current organization, most of my work can not be shared externally. Including much of my dashboard, game, and other web application work.</div>
     </div>
-    <div
-        class="flex flex-col py-24 align-center justify-center w-full bg-custom-mint"
-      > 
-          <h4 class="font-medium text-4xl text-white mx-auto mb-12">Let's connect</h4>
-          <div class="flex flex-col gap-4 align-center mx-auto">
-              <a
-                href="/Brianna_Chen_UXE_Resume.pdf"
-                target="_blank"
-                class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
-              >
-                <file-text-icon class="mr-2" size="24"></file-text-icon>
-                View Resume
-              </a>
-              <a
-                href="mailto:bche1132@gmail.com?subject=Response from website"
-                target="_blank"
-                class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
-              >
-                <mail-icon class="mr-2" size="24"></mail-icon>
-                Contact Bri
-              </a>
-          </div>
-    </div>
+    <lets-connect />
   </div>
 </template>
 
 <script>
 import AppImageCard from '@/components/AppImageCard.vue'
+import LetsConnect from '@/components/LetsConnect.vue'
 export default {
   layout: "home",
   components: { AppImageCard },
@@ -222,6 +209,6 @@ export default {
   max-width: 500px;
 }
 .button {
-  background: #FFBF00;
+  /* background: #FFBF00; */
 }
 </style>

@@ -16,7 +16,7 @@
           <h1
             class="px-4 mt-8 text-center text-4xl font-bold text-gray-800 tracking-wide"
           >
-            Hi there! You can call me <span class="text-custom-pink">Bri!</span>
+            Hi there! You can call me <span class="text-midcent-green">Bri!</span>
           </h1>
           <!-- <div
             class="my-8 mx-auto text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin italic cloud bg-blue-200 p-4"
@@ -55,70 +55,50 @@
           </div>
       </div>
     </div>
-    <div
-        class="flex flex-col py-24 align-center justify-center w-full bg-custom-indigo"
+    <div class="flex flex-col py-24 align-center justify-center w-full bg-white"
       > 
-        <h4 class="font-medium text-4xl text-white mx-auto mb-12">I also enjoy</h4>
-        <div class="grid grid-cols-1 md:grid-cols-4 max-w-screen-xl mx-auto gap-8">
-          <div>
+        <h4 class="font-medium text-4xl mx-auto mb-12">I also enjoy</h4>
+        <div class="grid grid-cols-1 md:grid-cols-4 max-w-screen-xl mx-auto">
+          <div class="bg-midcent-orange">
             <img
               src="~/assets/images/hobbies/art.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-pink"
+              class="mx-auto my-4 z-50 w-48 md:w-full px-4"
               alt="Picture of Brianna in front of an oil painting"
             />
-            <h4 class="font-light text-white px-2  py-1 text-xl">Painting</h4>
+            <h4 class="font-light px-4 py-1 text-xl">Painting</h4>
           </div>
-          <div>
+          <div class="bg-midcent-green">
             <img
               src="~/assets/images/hobbies/lounging.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-mint"
+              class="mx-auto my-4 z-50 w-48 md:w-full  px-4"
               alt="Picture of two adorable kittens"
             />
-            <h4 class="font-light text-white px-2  py-1 text-xl">Lounging</h4>
+            <h4 class="font-light px-4 y-2 text-xl">Lounging</h4>
           </div>
-          <div>
+          <div class="bg-midcent-blush">
             <img
               src="~/assets/images/hobbies/travel.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-orange"
+              class="mx-auto my-4 z-50 w-48 md:w-full  px-4"
               alt="Picture of Brianna in Peru with llamas walking in front"
             />
-            <h4 class="font-light text-white px-2  py-1 text-xl">Traveling</h4>
+            <h4 class="font-light px-4 py-2 text-xl">Traveling</h4>
           </div>
-          <div>
+          <div class="bg-midcent-yellow">
             <img
               src="~/assets/images/hobbies/gaming.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full border-4 border-custom-pink"
+              class="mx-auto my-4 z-50 w-48 md:w-full  px-4"
               alt="Picture of board game pandemic"
             />
-            <h4 class="font-light text-white px-2  py-1 text-xl">Playing Games</h4>
+            <h4 class="font-light px-4 py-2 text-xl">Playing Games</h4>
           </div>
         </div>
       </div>
-    <div
-        class="flex flex-col py-24 align-center justify-center w-full bg-custom-mint"
-      > 
-          <h4 class="font-medium text-4xl text-white mx-auto mb-12">Let's connect</h4>
-          <div class="flex flex-col gap-4 align-center mx-auto">
-              <a
-                href="/Brianna_Chen_UXE_Resume.pdf"
-                target="_blank"
-                class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
-              >
-                View Resume
-              </a>
-              <a
-                href="mailto:bche1132@gmail.com?subject=Response from website"
-                target="_blank"
-                class="z-50 rounded-full flex text-xl items-center px-8 py-2 button font-light cursor-pointer primary-btn"
-              >
-                Contact Bri
-              </a>
-          </div>
-    </div>
+    <lets-connect />
   </div>
 </template>
 <script>
 import { FileTextIcon, MailIcon } from "vue-feather-icons";
+import LetsConnect from '@/components/LetsConnect.vue'
 export default {
   components: {
     FileTextIcon,
@@ -167,7 +147,7 @@ export default {
   position: absolute;
   width: 300px;
   height: 300px;
-  background: #FFBF00;
+  background: #C8A89C;
   margin-left: 20%;
   /* margin-top: -50px; */
 }
