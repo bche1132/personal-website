@@ -22,10 +22,6 @@
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
             <div class="md:w-1/2 bg-gray-200 p-4">
                 <h3 class="text-3xl font-light text-gray-800 tracking-wide">Introduction</h3>
-                <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
-                  During early pandemic days, MITRE formed a coalition of private and public industry members with the aim to quickly gather and share crucial data to industry experts aiming to help the global health crisis.
-                  MITRE quickly spun-up websites, tools, and sharing platforms to get the data out into the hands of experts.
-                </p>
                 <p class="mb-8 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
                   In the early days of the pandemic, MITRE established a coalition of private and public industry members to swiftly collect and disseminate vital data to industry experts, aiming to address the global health crisis. MITRE rapidly developed websites, tools, and sharing platforms to ensure experts had access to this critical information. These tools were designed, developed, and deployed at an unprecedented speed to meet the evolving global demands. This work was distinctive, focusing not on a single tool or design, but on the overall UX approach to address needs during a rapidly changing crisis.
                 </p>

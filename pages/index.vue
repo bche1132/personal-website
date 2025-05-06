@@ -1,16 +1,16 @@
 <template>
   <div class="w-full h-full page-container flex flex-col">
     <div
-      class="max-w-screen-xl px-8 md:px-0 w-full mx-auto"
+      class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto"
     >
       <div class="py-24">
-        <span class="text-6xl font-bold tracking-wider  flex flex-start">
+        <span class="text-6xl font-bold tracking-wider flex flex-start">
           <h1 class="bg-white py-2 capitalize">Brianna Chen | UX Engineer</h1>
         </span>
         <p
-          class="text-3xl tracking-wide font-light text-gray-800 mt-4 bg-white py-2  flex flex-start"
-          id="typein"
+          class="text-3xl tracking-wide font-light text-gray-800 mt-4 bg-white py-2 flex flex-start"
         >
+          I'm a designer and developer committed to making beautiful user experiences.
         </p>
         <div class="mt-8">
           <nuxt-link
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div
-          class="max-w-screen-xl px-8 md:px-0 w-full mx-auto flex flex-col h-full"
+          class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto flex flex-col h-full"
         >
         <h2 class="text-4xl font-light text-gray-800 mb-8">Selected Works:</h2>
     </div>
@@ -31,7 +31,7 @@
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
-          <div class="flex py-8 px-8 md:px-0 justify-between items-center gap-8 flex-col md:flex-row">
+          <div class="flex py-8 px-8 xl:px-0 justify-between items-center gap-8 flex-col md:flex-row">
             <div>
               <h2 class="text-5xl font-extrabold">MITRE ATT&CK</h2>
               <p class="font-light mb-8">
@@ -52,7 +52,7 @@
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
-          <div class="flex py-8  px-8 md:px-0  justify-between w-full items-center gap-8  flex-col-reverse md:flex-row">
+          <div class="flex py-8  px-8 xl:px-0  justify-between w-full items-center gap-8  flex-col-reverse md:flex-row">
             <img src="@/assets/images/portfolio/work/sct/sct-mb.png" class="work-image" alt=""/>
             <div>
               <h2 class="text-5xl  font-extrabold">Astute Canary</h2>
@@ -76,7 +76,7 @@
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
-          <div class="flex py-8 px-8 md:px-0 justify-between items-center gap-8 flex-col md:flex-row">
+          <div class="flex py-8 px-8 xl:px-0 justify-between items-center gap-8 flex-col md:flex-row">
             <div>
               <h2 class="text-5xl font-extrabold">Healthcare Coalition Work</h2>
               <p class="font-light mb-8">
@@ -94,7 +94,7 @@
         </div>
     </div>
     <div
-      class="max-w-screen-xl px-8 md:px-0 mx-auto flex flex-col h-full"
+      class="max-w-screen-xl px-8 xl:px-0 mx-auto flex flex-col h-full"
     >
       <div class="bg-gray-200 rounded font-light text-xl italic mt-8 p-12 mb-8">Note: Due to the nature of my current organization, most of my work can not be shared externally. Including much of my dashboard, game, and other web application work.</div>
     </div>
@@ -175,16 +175,8 @@ export default {
     }
   },
   methods: {
-    typeWriter() {
-      if (this.i < this.message.length) {
-        document.getElementById("typein").innerHTML += this.message.charAt(this.i);
-        this.i++;
-        setTimeout(this.typeWriter, this.speed);
-      }
-    }
   },
   mounted() {
-    this.typeWriter();
   }
 };
 </script>
