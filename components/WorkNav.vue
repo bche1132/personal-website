@@ -1,6 +1,6 @@
 <template>
     <div :class="bgClass">
-        <div class="max-w-screen-xl flex flex-row justify-between mx-auto w-full h-full py-8 md:py-24 px-4 md:px-0">
+        <div class="max-w-screen-xl flex flex-row justify-between mx-auto w-full h-full py-8 md:py-24 px-4 xl:px-0">
             <nuxt-link :to="previousLink" class="primary-btn flex flex-row items-center bg-white rounded-full px-4 py-2 hover:bg-midcent-tan cal-sans-regular">
                 <chevron-left-icon class="mr-2"></chevron-left-icon> {{ previousStory }}
             </nuxt-link>

@@ -1,7 +1,7 @@
 <template>
   <div class="page-container">
     <div class="bg-midcent-orange">
-        <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 md:py-24 px-4 md:px-0">
+        <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 md:py-24 px-4 xl:px-0">
             <back-to-portfolio></back-to-portfolio>
             <div class="flex flex-col w-full mt-8">
                 <span>
@@ -18,7 +18,7 @@
             </div>
         </div>
     </div>
-    <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 px-4 md:px-0">
+    <div class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full py-8 px-4 xl:px-0">
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
             <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light tracking-wide">Introduction</h3>
