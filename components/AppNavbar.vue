@@ -5,7 +5,7 @@
         <div class="relative flex items-center justify-between">
           <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
-            <button type="button" @click="menuOpen = !menuOpen" class="inline-flex items-center justify-center p-2 rounded-md  hover:text-black hover:bg-pink-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <button type="button" @click="menuOpen = !menuOpen" class="inline-flex items-center justify-center p-2 rounded-md  hover:text-black hover:bg-midcent-blush focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
               <svg class="h-6 w-6" :class="{'block': !menuOpen, 'hidden': menuOpen}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -38,8 +38,8 @@
       <!-- Mobile menu, show/hide based on menu state. -->
       <div class="block z-50 sm:hidden" id="mobile-menu" v-if="menuOpen">
         <div class="pt-8 text-center pb-3 space-y-1 ">
-          <nuxt-link to="/" class="text-black hover:bg-midcent-orange hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-orange-300 font-bold pb-2 text-blue-900': currentPage == '/' }">work</nuxt-link>
-          <nuxt-link to="/about" class="text-black  hover:bg-midcent-dark-green hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-midcent-dark-green font-bold pb-2 ': currentPage.includes('/about') }">about</nuxt-link>
+          <nuxt-link to="/" class="text-black hover:bg-midcent-orange hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-orange-300 font-bold pb-2 ': currentPage == '/' }">work</nuxt-link>
+          <nuxt-link to="/about" class="text-black  hover:bg-midcent-dark-green hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-midcent-green font-bold pb-2': currentPage.includes('/about') }">about</nuxt-link>
           <a class="text-black block px-3 py-2 rounded-md text-base font-bold hover:bg-midcent-orange focus:bg-midcent-orange hover:text-white focus:text-white"  href="/Brianna_Chen_UXE_Resume.pdf"
                 >resume</a>
           <!-- <nuxt-link to="/musings" class="text-gray-300 hover:bg-indigo-400 hover:text-white block px-3 py-2 rounded-md text-base font-bold" :class="{ 'bg-indigo-400 font-bold pb-2 text-white': currentPage.includes('/musings') }">musings</nuxt-link>         -->
