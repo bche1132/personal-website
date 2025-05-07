@@ -33,6 +33,10 @@ export default {
       src: '~/plugins/pdf',
       mode: 'client'
     },
+    {
+      src: '~/plugins/v-viewer',
+      mode: 'client'
+    },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

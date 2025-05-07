@@ -31,11 +31,15 @@
                 </p>
                 <p class="text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">I also worked with the outreach team to create infographs, pitchdecks, and other branding elements, such as the logo.</p>
             </div>
-            <img src="@/assets/images/portfolio/work/sct/ac-logo.png" class="hidden md:flex sample-img tall" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/sct/ac-logo.png" class="hidden md:flex sample-img tall" alt=""/>
+            </viewer>
         </div>
         
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <img src="@/assets/images/portfolio/work/sct/dashboard-mockup.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/sct/dashboard-mockup.png" class="sample-img" alt=""/>
+            </viewer>
             <div class="md:w-1/2 bg-white px-8 py-12">
                 <h3 class="text-3xl font-light tracking-wide">Challenges</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
@@ -62,10 +66,14 @@
                     <li>Agile design and development</li>
                 </ul>
             </div>
-            <img src="@/assets/images/portfolio/work/sct/notification.png" class="sample-img tall" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/sct/notification.png" class="sample-img tall" alt=""/>
+            </viewer>
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <img src="@/assets/images/portfolio/work/sct/sct-devices.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/sct/sct-devices.png" class="sample-img" alt=""/>
+            </viewer>
             <div class="md:w-1/2 bg-white px-8 py-12">
                 <h3 class="text-3xl font-light tracking-wide">Outcome</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
@@ -85,10 +93,12 @@
                   <p class="mb-8 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">Overall, this experience deepened my understanding of user-centered design, agile development, and the necessity of staying responsive to market needs in high-stakes situations.
                 </p>
             </div>
-            <img src="@/assets/images/portfolio/work/sct/ac-infograph-cut.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/sct/ac-infograph-cut.png" class="sample-img" alt=""/>
+            </viewer>
         </div>
       </div>
-              <work-nav :previousStory="'MITRE ATT&CK'" :previousLink="'/work/attack'" :nextStory="'Healthcare Coalition Work'" :nextLink="'/work/coalition'" :bgClass="'bg-midcent-green'" />
+     <work-nav :previousStory="'MITRE ATT&CK'" :previousLink="'/work/attack'" :nextStory="'Healthcare Coalition Work'" :nextLink="'/work/coalition'" :bgClass="'bg-midcent-green'" />
     </div>
 </template>
 <script>
@@ -125,6 +135,7 @@ export default {
   width: 100%;
   min-width: 300px;
   max-width: 500px;
+  cursor: pointer;
 }
 .tall {
   max-width: 250px !important;

@@ -27,11 +27,15 @@
                     Back when I first began my career at MITRE, they were looking to move from their previous Wiki based site to a more flexible web application. Users were eager to have a more adaptable search and easier to traverse interface.
                 </p>
             </div>
-            <img src="@/assets/images/portfolio/work/attack/ATT&CK_red.png" class="hidden md:flex sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/attack/ATT&CK_red.png" class="hidden md:flex sample-img" alt=""/>
+            </viewer>
         </div>
         
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <img src="@/assets/images/portfolio/work/attack/page-mapping.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/attack/page-mapping.png" class="sample-img" alt=""/>
+            </viewer>
             <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light tracking-wide">Challenges</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-md leading-8 font-thin">
@@ -59,10 +63,14 @@
                     <li>Guerilla user testing of prototype (within organization)</li>
                 </ul>
             </div>
-            <img src="@/assets/images/portfolio/work/attack/attack-wireframe.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/attack/attack-wireframe.png" class="sample-img" alt=""/>
+            </viewer>
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <img src="@/assets/images/portfolio/work/attack/sample-search.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/attack/sample-search.png" class="sample-img" alt=""/>
+            </viewer>
             <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light tracking-wide">Outcome</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
@@ -83,7 +91,9 @@
                     This project was pivotal in my journey with design. It highlighted the significance of iterative user feedback, ensuring user involvement from the outset, and demonstrated that user-centered design principles can be universally applied, regardless of one's familiarity with the domain.
                 </p>
             </div>
-            <img src="@/assets/images/portfolio/work/attack/homepage.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/attack/homepage.png" class="sample-img" alt=""/>
+            </viewer>
         </div>
       </div>
       <work-nav :previousStory="'Healthcare Coalition Work'" :previousLink="'/work/coalition'" :nextStory="'Astute Canary'" :nextLink="'/work/astute-canary'" :bgClass="'bg-midcent-orange'" />
@@ -123,5 +133,6 @@ mounted() {
   width: 100%;
   min-width: 300px;
   max-width: 500px;
+  cursor: pointer;
 }
 </style>

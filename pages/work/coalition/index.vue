@@ -26,11 +26,15 @@
                   In the early days of the pandemic, MITRE established a coalition of private and public industry members to swiftly collect and disseminate vital data to industry experts, aiming to address the global health crisis. MITRE rapidly developed websites, tools, and sharing platforms to ensure experts had access to this critical information. These tools were designed, developed, and deployed at an unprecedented speed to meet the evolving global demands. This work was distinctive, focusing not on a single tool or design, but on the overall UX approach to address needs during a rapidly changing crisis.
                 </p>
             </div>
-            <img src="@/assets/images/portfolio/work/c19hcc/c19hcc-browser.png" class="hidden md:flex sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/c19hcc/c19hcc-browser.png" class="hidden md:flex sample-img" alt=""/>
+            </viewer>
         </div>
         
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <img src="@/assets/images/portfolio/work/dsd/dsd-devices.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/dsd/dsd-devices.png" class="sample-img" alt=""/>
+            </viewer>
             <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light tracking-wide">Challenges</h3>
                 <p class="mt-8 mb-4  max-w-screen-md text-left text-gray-800 text-lg leading-8 font-thin">
@@ -51,10 +55,14 @@
                     <li>Looooong hours</li>
                 </ul>
             </div>
-            <img src="@/assets/images/portfolio/work/actpoc/actpoc-browser.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/actpoc/actpoc-browser.png" class="sample-img" alt=""/>
+            </viewer>
         </div>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 mt-12 md:items-center">
-            <img src="@/assets/images/portfolio/work/c19hcc/chai.png" class="sample-img" alt=""/>
+            <viewer>
+                <img src="@/assets/images/portfolio/work/c19hcc/chai.png" class="sample-img" alt=""/>
+            </viewer>
             <div class="md:w-1/2 bg-white p-4">
                 <h3 class="text-3xl font-light tracking-wide">Outcome</h3>
                 <p class="mt-8 mb-4 text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
@@ -77,7 +85,9 @@
                     <li>When we join for a cause, we can do incredible things</li>
                 </ul>
             </div>
-            <img src="@/assets/images/portfolio/work/c19hcc/vci.png" class="sample-img" alt="" />
+            <viewer>
+                <img src="@/assets/images/portfolio/work/c19hcc/vci.png" class="sample-img" alt="" />
+            </viewer>
         </div>
         
       </div>
@@ -117,5 +127,6 @@ mounted() {
   width: 100%;
   min-width: 300px;
   max-width: 500px;
+  cursor: pointer;
 }
 </style>
