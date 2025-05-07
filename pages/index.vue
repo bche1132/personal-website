@@ -3,7 +3,7 @@
     <div
       class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto"
     >
-      <div class="py-24">
+      <section class="py-24">
         <span class="text-6xl font-bold flex flex-start">
           <h1 class="py-2 capitalize">Brianna Chen</h1>
         </span>
@@ -26,16 +26,16 @@
                 <span>View resume </span>
               </a>
         </div>
-      </div>
+      </section>
     </div>
-    <div class="bg-white flex w-full">
+    <section class="bg-white flex w-full">
       <div
             class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto flex flex-col h-full bg-white"
           >
           <h2 class="text-3xl font-light my-8">Selected works:</h2>
       </div>
-    </div>
-    <div class="bg-white flex w-full">
+    </section>
+    <section class="bg-white flex w-full">
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
@@ -55,8 +55,8 @@
             <img src="@/assets/images/portfolio/work/attack/attack-homepage.png" class="work-image" alt=""/>
           </div>
         </div>
-    </div>
-    <div class="flex w-full">
+    </section>
+    <section class="flex w-full">
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
@@ -79,8 +79,8 @@
             </div>
           </div>
         </div>
-    </div>
-    <div class="bg-white border-b flex w-full">
+    </section>
+    <section class="bg-white border-b flex w-full">
       <div
           class="max-w-screen-xl mx-auto flex flex-col h-full"
         >
@@ -100,12 +100,12 @@
             <img src="@/assets/images/portfolio/work/c19hcc/c19hcc-browser.png" class="work-image" alt=""/>
           </div>
         </div>
-    </div>
-    <div
+    </section>
+    <section
       class="max-w-screen-xl px-8 xl:px-0 mx-auto flex flex-col"
     >
       <div class="border border-midcent-dark-green rounded font-light text-xl mt-8 p-12 cal-sans-regular">Note: Due to the nature of my current organization, most of my work can not be shared externally. Including much of my dashboard, game, and other web application work.</div>
-    </div>
+    </section>
     <lets-connect />
   </div>
 </template>
@@ -164,7 +164,22 @@ export default {
   methods: {
   },
   mounted() {
-  }
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view")
+          } 
+        }) 
+      }, {
+        rootMargin: "0px",
+        threshold: [0, 0.1, 1]
+      });
+
+      const tags = document.querySelectorAll("section, h1, h2, h3, h4")
+      tags.forEach((tag) => {
+        observer.observe(tag)
+      });
+  },
 };
 </script>
 
