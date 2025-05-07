@@ -1,15 +1,15 @@
 <template>
   <div class="w-full page-container">
     <div
-      class="max-w-screen-xl flex flex-col mx-auto w-full h-full"
+      class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full"
     >
       <div
-        class="w-full flex flex-col p-12"
+        class="w-full z-50 flex flex-col p-12"
         > 
           
           <img
             src="~/assets/images/bri_peru.jpg"
-            class="mx-auto h-64 w-64 my-4 shadow-lg"
+            class="mx-auto h-64 w-64 my-4 z-50 shadow-lg"
             alt="Picture of Brianna in Peru petting a baby goat"
           />
           <div class="hidden rectangle md:flex"></div>
@@ -18,15 +18,6 @@
           >
             Hi there! You can call me <span class="text-midcent-green">Bri!</span>
           </h1>
-          <!-- <div
-            class="my-8 mx-auto text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin italic cloud bg-blue-200 p-4"
-          >
-            I have a background in both Computer Science and Art, and use these
-            seemingly disparate fields in projects as both a UX Designer and
-            Developer. In recent years, I have also enjoyed learning and
-            practicing UX Research methodologies to help inform design and
-            enhance user experience outcomes.
-          </div> -->
 
           <div class="my-8 mx-auto text-left text-gray-800 text-lg max-w-screen-sm leading-8 font-thin">
             <h2 class="text-xl font-medium text-left mt-12">My Journey into UX:</h2>
@@ -116,7 +107,7 @@ export default {
         threshold: [0, 0.1, 1]
       });
 
-      const tags = document.querySelectorAll("div, h1,h2, h3,h4")
+      const tags = document.querySelectorAll("img, h1,h2, h3,h4, p")
       tags.forEach((tag) => {
         observer.observe(tag)
       });

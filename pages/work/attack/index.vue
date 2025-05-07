@@ -121,7 +121,7 @@ mounted() {
         threshold: [0, 0.1, 1]
       });
 
-      const tags = document.querySelectorAll("div, h1,h2, h3,h4")
+      const tags = document.querySelectorAll("p, ul, img, h1,h2, h3,h4")
       tags.forEach((tag) => {
         observer.observe(tag)
       });
