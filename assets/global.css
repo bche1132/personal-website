@@ -3,3 +3,42 @@
   font-weight: 400;
   font-style: normal;
 }
+.page-container {
+  min-height: calc(100vh - 80px);
+}
+.primary-btn {
+  transition: all 0.5s;
+}
+.primary-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.primary-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.primary-btn:hover span {
+  padding-right: 25px;
+}
+
+.primary-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.primary-btn:hover, .primary-btn:focus {
+  scale: 1.2;
+}
+.work-image {
+  width: 100%;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 500px;
+}

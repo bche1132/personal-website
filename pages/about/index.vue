@@ -62,34 +62,34 @@
           <div class="bg-midcent-orange">
             <img
               src="~/assets/images/hobbies/art.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full px-4"
+              class="mx-auto my-4 z-50 w-full px-4"
               alt="Picture of Brianna in front of an oil painting"
             />
-            <h4 class="font-light px-4 py-1 text-xl">Painting</h4>
+            <h4 class="font-light px-4 pt-2 pb-4 text-2xl">Painting</h4>
           </div>
           <div class="bg-midcent-green">
             <img
               src="~/assets/images/hobbies/lounging.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full  px-4"
+              class="mx-auto my-4 z-50 w-full  px-4"
               alt="Picture of two adorable kittens"
             />
-            <h4 class="font-light px-4 y-2 text-xl">Lounging</h4>
+            <h4 class="font-light px-4 pt-2 pb-4 text-2xl">Lounging</h4>
           </div>
           <div class="bg-midcent-blush">
             <img
               src="~/assets/images/hobbies/travel.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full  px-4"
+              class="mx-auto my-4 z-50 w-full  px-4"
               alt="Picture of Brianna in Peru with llamas walking in front"
             />
-            <h4 class="font-light px-4 py-2 text-xl">Traveling</h4>
+            <h4 class="font-light px-4 pt-2 pb-4 text-2xl">Traveling</h4>
           </div>
           <div class="bg-midcent-yellow">
             <img
               src="~/assets/images/hobbies/gaming.jpg"
-              class="mx-auto my-4 z-50 w-48 md:w-full  px-4"
+              class="mx-auto my-4 z-50 w-full  px-4"
               alt="Picture of board game pandemic"
             />
-            <h4 class="font-light px-4 py-2 text-xl">Playing Games</h4>
+            <h4 class="font-light px-4 pt-2 pb-4 text-2xl">Board Games</h4>
           </div>
         </div>
       </div>

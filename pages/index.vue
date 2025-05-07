@@ -32,7 +32,7 @@
       <div
             class="max-w-screen-xl px-8 xl:px-0 w-full mx-auto flex flex-col h-full bg-white"
           >
-          <h2 class="text-3xl font-light text-gray-800 my-8">Selected works:</h2>
+          <h2 class="text-3xl font-light my-8">Selected works:</h2>
       </div>
     </div>
     <div class="bg-white flex w-full">
@@ -102,9 +102,9 @@
         </div>
     </div>
     <div
-      class="max-w-screen-xl px-8 xl:px-0 mx-auto flex flex-col h-full"
+      class="max-w-screen-xl px-8 xl:px-0 mx-auto flex flex-col"
     >
-      <div class="border border-midcent-dark-green rounded font-light text-xl mt-8 p-12 mb-8 cal-sans-regular">Note: Due to the nature of my current organization, most of my work can not be shared externally. Including much of my dashboard, game, and other web application work.</div>
+      <div class="border border-midcent-dark-green rounded font-light text-xl mt-8 p-12 cal-sans-regular">Note: Due to the nature of my current organization, most of my work can not be shared externally. Including much of my dashboard, game, and other web application work.</div>
     </div>
     <lets-connect />
   </div>
@@ -115,7 +115,7 @@ import AppImageCard from '@/components/AppImageCard.vue'
 import LetsConnect from '@/components/LetsConnect.vue'
 export default {
   layout: "home",
-  components: { AppImageCard },
+  components: { AppImageCard, LetsConnect },
   data() {
     return {
       i: 0,
@@ -168,47 +168,52 @@ export default {
 };
 </script>
 
-<style>
-.page-container {
-  min-height: calc(100vh - 80px);
-}
-.primary-btn {
-  transition: all 0.5s;
-}
-.primary-btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+<style lang="css">
+.hero {
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
-.primary-btn span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
 
-.primary-btn:hover span {
-  padding-right: 25px;
-}
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
 
-.primary-btn:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.primary-btn:hover, .primary-btn:focus {
-  scale: 1.2;
-}
-.work-image {
-  width: 100%;
-  min-width: 300px;
-  min-height: 300px;
-  max-width: 500px;
-}
-.button {
-  /* background: #FFBF00; */
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
 }
 </style>
