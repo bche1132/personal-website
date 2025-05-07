@@ -12,16 +12,16 @@
         >
           I'm a designer and developer committed to making beautiful user experiences.
         </p>
-        <div class="mt-8 inline-flex gap-8">
+        <div class="mt-8 flex flex-col sm:inline-flex sm:flex-row gap-8">
           <nuxt-link
                 to="/about"
-                class="rounded-full inline-flex text-xl items-center px-8 py-2 bg-midcent-orange text-white font-light cursor-pointer primary-btn cal-sans-regular"
+                class="rounded-full text-center text-xl items-center px-8 py-2 bg-midcent-orange text-white font-light cursor-pointer primary-btn cal-sans-regular"
               >
                 <span>Learn more </span>
               </nuxt-link>
           <a
                 href="/Brianna_Chen_UXE_Resume.pdf"
-                class="rounded-full inline-flex text-xl items-center px-8 py-2 border border-midcent-orange text-midcent-orange font-light cursor-pointer primary-btn cal-sans-regular"
+                class="rounded-full text-center text-xl items-center px-8 py-2 border border-midcent-orange text-midcent-orange font-light cursor-pointer primary-btn cal-sans-regular"
               >
                 <span>View resume </span>
               </a>
