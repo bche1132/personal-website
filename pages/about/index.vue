@@ -1,15 +1,15 @@
 <template>
   <div class="w-full page-container">
     <div
-      class="max-w-screen-xl flex flex-col z-50 mx-auto w-full h-full"
+      class="max-w-screen-xl flex flex-col mx-auto w-full h-full"
     >
       <div
-        class="w-full z-50 flex flex-col p-12"
+        class="w-full flex flex-col p-12"
         > 
           
           <img
             src="~/assets/images/bri_peru.jpg"
-            class="mx-auto h-64 w-64 my-4 z-50 shadow-lg"
+            class="mx-auto h-64 w-64 my-4 shadow-lg"
             alt="Picture of Brianna in Peru petting a baby goat"
           />
           <div class="hidden rectangle md:flex"></div>

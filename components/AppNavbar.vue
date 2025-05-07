@@ -5,7 +5,7 @@
         <div class="relative flex items-center justify-between">
           <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
-            <button type="button" @click="menuOpen = !menuOpen" class="inline-flex items-center justify-center p-2 rounded-md  hover:text-black hover:bg-midcent-blush focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <button type="button" @click="menuOpen = !menuOpen" class="inline-flex items-center justify-center p-2 rounded-md  hover:text-black hover:bg-midcent-blush focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white z-50" aria-controls="mobile-menu" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
               <svg class="h-6 w-6" :class="{'block': !menuOpen, 'hidden': menuOpen}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
